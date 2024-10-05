@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url(../8c1386b01123c04723e9dd1f064e15ba.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+h1{
+    color: rgb(80, 210, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+   gap: 17px;
+   
+}
+.primeira{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+}
+.segunda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+}
+.resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(80, 210, 208);
+    
+}
+input{
+    border-radius: 8px;
+    height: 30px;
+   display: flex;
+   text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+  
+    
+}
+.renk{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 22px;
+    font-family: cursive;
+    
+}
+.butt{
+    height: 60px;
+    width: 100px;
+    border-radius: 20px;
+    background-color:  rgb(80, 210, 208);
+    border: solid rgb(24, 161, 159);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.butt:hover{
+    height: 62px;
+    width: 100px;
+    border-radius: 20px;
+    background-color:  rgb(80, 210, 208);
+    border: solid rgb(24, 161, 159);
+    font-size: 23px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.resultadinho{
+    display: flex;
+    text-align: center;
+}
